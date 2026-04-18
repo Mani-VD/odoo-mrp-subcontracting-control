@@ -1,6 +1,6 @@
 Odoo 18: Industrial Subcontracting & Wastage Control
 
-📌 Overview \
+📌 Overview
 
 In industrial manufacturing hubs (like Coimbatore and Tiruppur), Job Work and Subcontracting are core operations. However, standard ERP flows often fail to account for material shrinkage (wastage) and lack real-time visibility of inventory residing at vendor sites.
 
