@@ -2,6 +2,18 @@ Odoo 18: Industrial Subcontracting & Wastage Control
 📌 Overview
 In industrial manufacturing hubs (like Coimbatore and Tiruppur), Job Work and Subcontracting are core operations. However, standard ERP flows often fail to account for material shrinkage (wastage) and lack real-time visibility of inventory residing at vendor sites.
 
+## 💡 Why This Project? (Portfolio Highlight)
+*This section is for recruiters and technical leads to understand the business logic behind the development.*
+
+**The Problem:** In high-volume manufacturing hubs like Coimbatore, material "shrinkage" at subcontractor sites (dyeing, casting, machining) is often ignored until the end of the fiscal year, leading to massive inventory discrepancies.
+
+**The Solution:** I engineered a custom "Gatekeeper" logic. Instead of allowing Odoo to simply accept whatever the vendor sends back, this module calculates the variance against a predefined Bill of Materials (BoM) tolerance. 
+
+**Key Technical Challenges Overcome:**
+* **ORM vs SQL:** I chose a PostgreSQL View for the reporting engine to ensure that even with 100,000+ stock moves, the "Inventory at Vendors" dashboard loads in milliseconds.
+* **V18 Migration:** Handled the deprecation of `attrs` and the shift from `tree` to `list` views, ensuring the module is future-proof.
+
+
 This module provides an enterprise-grade solution to track, validate, and audit subcontracting operations, ensuring that material variances are approved by management before they affect the bottom line.
 
 ✨ Key Features
