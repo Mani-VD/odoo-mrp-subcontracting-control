@@ -39,3 +39,6 @@ Process Automation: Reduces the need for manual spreadsheets to track "Challan" 
 
 📸 Implementation Screenshots
 
+https://github.com/Mani-VD/odoo-mrp-subcontracting-control/blob/main/tolerance%20warning.png
+https://github.com/Mani-VD/odoo-mrp-subcontracting-control/blob/main/vendor%20stock%20analysis.png
+
