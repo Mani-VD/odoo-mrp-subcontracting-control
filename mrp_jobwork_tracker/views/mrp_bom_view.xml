@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="mrp_bom_form_view_inherit" model="ir.ui.view">
+            <field name="name">mrp.bom.form.inherit</field>
+            <field name="model">mrp.bom</field>
+            <field name="inherit_id" ref="mrp.mrp_bom_form_view" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='product_qty']" position="after">
+                    <field name="wastage_tolerance" />
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
