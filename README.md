@@ -35,3 +35,7 @@ Inventory Accuracy: Prevents "hidden" stock leaks by forcing manual reconciliati
 Financial Control: Gives management an immediate view of "Value at Risk" (total inventory value sitting in external vendor warehouses).
 
 Process Automation: Reduces the need for manual spreadsheets to track "Challan" balances.
+
+
+📸 Implementation Screenshots
+
